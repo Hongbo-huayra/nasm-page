@@ -4,31 +4,43 @@
     <meta charset="utf-8" />
     <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
     <!-- Replace the content tag with appropriate information -->
-    <meta name="description" content="DESCRIPTION META TAG" />
-    <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+    <meta
+      name="description"
+      content="NASM is a new learning-based method for anisotropic surface meshing."
+    />
+    <meta
+      property="og:title"
+      content="NASM: Neural Anisotropic Surface Meshing"
+    />
     <meta
       property="og:description"
-      content="SOCIAL MEDIA DESCRIPTION TAG TAG"
+      content="NASM is a new learning-based method for anisotropic surface meshing."
     />
-    <meta property="og:url" content="URL OF THE WEBSITE" />
+    <meta
+      property="og:url"
+      content="https://hongbo-huayra.github.io/nasm-page/"
+    />
     <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-    <meta property="og:image" content="static/image/your_banner_image.png" />
+    <meta property="og:image" content="static/images/741525.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
-    <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG" />
+    <meta
+      name="twitter:title"
+      content="NASM: Neural Anisotropic Surface Meshing"
+    />
     <meta
       name="twitter:description"
-      content="TWITTER BANNER DESCRIPTION META TAG"
+      content="NASM is a new learning-based method for anisotropic surface meshing."
     />
     <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-    <meta
-      name="twitter:image"
-      content="static/images/your_twitter_banner_image.png"
-    />
+    <meta name="twitter:image" content="static/images/741525.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <!-- Keywords for your paper to be indexed by-->
-    <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE" />
+    <meta
+      name="keywords"
+      content="neural network, anisotropic, meshing, CVT, Voronoi"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>NASM: Neural Anisotropic Surface Meshing</title>
@@ -105,7 +117,7 @@
                 <span class="author-block">
                   <a href="THIRD AUTHOR PERSONAL LINK" target="_blank"
                     >Wenping Wang</a
-                  ><sup>4</sup>,</span
+                  ><sup>5</sup>,</span
                 >
                 <span class="author-block">
                   <a href="THIRD AUTHOR PERSONAL LINK" target="_blank"
@@ -130,6 +142,9 @@
                 >,
                 <span class="author-block"
                   ><sup>4</sup>The University of Hong Kong</span
+                >
+                <span class="author-block"
+                  ><sup>5</sup>Texas A&M University</span
                 >
                 <br />
                 <span class="author-block"
@@ -339,7 +354,7 @@
     <!-- Youtube video -->
     <section class="hero is-small is-light">
       <div class="hero-body">
-        <div class="container">
+        <div class="container is-max-desktop">
           <!-- Paper video. -->
           <h2 class="title is-3">Video Presentation</h2>
           <div class="columns is-centered has-text-centered">
@@ -364,6 +379,25 @@
     </section>
     <!-- End youtube video -->
 
+    <!-- Pipeline -->
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <h2 class="title is-3">Overview Pipeline</h2>
+          <div>
+            <img src="./static/images/pipeline_v2.png" />
+
+            <h2 class="content has-text-justified">
+              Fig. 5. The overview pipeline of NASM. Our method includes two
+              main components: neural high-d Euclidean embedding and high-d
+              normal metric CVT for feature-sensitive anisotropic meshing.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of pipeline -->
+
     <!-- Additional Applications vor -->
     <section class="hero is-small">
       <div class="hero-body">
@@ -373,7 +407,7 @@
             <img src="./static/images/vor_website.png" />
 
             <h2 class="content has-text-justified">
-              Fig. 5. Anisotropic RVD results generated on some complicated
+              Fig. 6. Anisotropic RVD results generated on some complicated
               surfaces from
               <a href="https://ten-thousand-models.appspot.com/" target="_blank"
                 >Thingi10K</a
@@ -398,7 +432,7 @@
             <img src="./static/images/multi_res.png" />
 
             <h2 class="content has-text-justified">
-              Fig. 6. NASM can be used for surface mesh simplification. An
+              Fig. 7. NASM can be used for surface mesh simplification. An
               example of Candycane with different resolutions.
             </h2>
           </div>
