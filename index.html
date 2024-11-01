@@ -256,17 +256,25 @@
       </div>
     </section>
     <!-- End paper abstract -->
-    <!-- Results -->
+
+    <!-- Results in Thingi10K -->
     <section class="hero is-small">
       <div class="hero-body">
         <div class="container is-max-desktop">
-          <h2 class="title is-3">Results</h2>
+          <h2 class="title is-3">Results in Thingi10K</h2>
           <div>
-            <img src="./static/images/rendering_result.png" />
+            <img src="./static/images/first.png" />
+            <img src="./static/images/second.png" />
+            <img src="./static/images/third.png" />
+
             <h2 class="content has-text-justified">
               Fig. 2. Our anisotropic surface meshing results on smooth surfaces
-              (top three rows) and surfaces with sharp or weak features (bottom
-              four rows). (left to right: curvature tensors with corresponding
+              (top two rows) and surfaces with sharp or weak features (bottom
+              row) from
+              <a href="https://ten-thousand-models.appspot.com/" target="_blank"
+                >Thingi10K</a
+              >
+              dataset. (left to right: curvature tensors with corresponding
               stretching ratios denoted in colors, anisotropic meshing, and a
               zoom-in illustration).
             </h2>
@@ -274,7 +282,59 @@
         </div>
       </div>
     </section>
-    <!-- End of Results -->
+    <!-- End of Results in Thingi10K -->
+
+    <!-- Results in mgn -->
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <h2 class="title is-3">Results in MGN</h2>
+          <div>
+            <img src="./static/images/mgn_in_paper.png" />
+
+            <h2 class="content has-text-justified">
+              Fig. 3. Our anisotropic surface meshing results on an unseen
+              testing dataset, e.g.,
+              <a
+                href="https://virtualhumans.mpi-inf.mpg.de/mgn/"
+                target="_blank"
+                >MGN</a
+              >
+              dataset. The examples of our results can well capture the open
+              boundaries and detailed cloth wrinkles and folds from tops and
+              pants models.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of results in mgn -->
+
+    <!-- Results in faust -->
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <h2 class="title is-3">Results in FAUST</h2>
+          <div>
+            <img src="./static/images/faust.png" />
+
+            <h2 class="content has-text-justified">
+              Fig. 4. Our anisotropic surface meshing results on an unseen
+              testing dataset, e.g.,
+              <a
+                href="https://faust-leaderboard.is.tuebingen.mpg.de/"
+                target="_blank"
+                >FAUST</a
+              >
+              dataset. Several human subject meshes in different poses are shown
+              to well capture geometric anisotropies and features around hands,
+              arms, legs, and thin clothes wrinkles on 3D human models.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of results in faust -->
 
     <!-- Youtube video -->
     <section class="hero is-small is-light">
@@ -303,6 +363,49 @@
       </div>
     </section>
     <!-- End youtube video -->
+
+    <!-- Additional Applications vor -->
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <h2 class="title is-3">Additional Applications: Anisotropic RVD</h2>
+          <div>
+            <img src="./static/images/vor_website.png" />
+
+            <h2 class="content has-text-justified">
+              Fig. 5. Anisotropic RVD results generated on some complicated
+              surfaces from
+              <a href="https://ten-thousand-models.appspot.com/" target="_blank"
+                >Thingi10K</a
+              >
+              dataset, which are computed by our high-d normal metric CVT
+              optimization.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Additional Applications vor -->
+
+    <!-- Additional Applications multires -->
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <h2 class="title is-3">
+            Additional Applications: Surface Mesh Simplification
+          </h2>
+          <div>
+            <img src="./static/images/multi_res.png" />
+
+            <h2 class="content has-text-justified">
+              Fig. 6. NASM can be used for surface mesh simplification. An
+              example of Candycane with different resolutions.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Additional Applications multires -->
 
     <!--BibTex citation -->
     <section class="section" id="BibTeX">
